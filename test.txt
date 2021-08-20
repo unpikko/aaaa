@@ -1,0 +1,71 @@
+font.base=$(font.monospace)
+font.small=$(font.monospace)
+font.comment=$(font.monospace)
+font.text=$(font.monospace)
+font.text.comment=$(font.monospace)
+font.embedded.base=$(font.monospace)
+font.embedded.comment=$(font.monospace)
+font.vbs=$(font.monospace)
+
+indent.automatic=1
+# style.*.32=$(font.base),back:#000000,fore:#ffffff
+# caret.fore=#FFFFFF
+
+style.errorlist.32=$(font.small),back:#000000
+style.errorlist.0=fore:#FFFFFF
+
+# 検索・置換はストリップでなくダイアログ
+find.use.strip=false
+replace.use.strip=false
+
+autocompleteword.automatic=1
+line.margin.visible=1
+line.margin.widrh=1+
+margin.width=8
+virtual.space=1
+save.recent=1
+save.check.modified.time=1
+default.file.ext=.txt
+open.dialog.in.file.directory=1
+xml.auto.close.tagautocompleteword.automatic=1
+xml.auto.close.tags=1
+selection.always.visible=1
+
+tabbar.visible=1
+statusbar.visible=1
+
+selection.multiple=1
+selection.additional.typing=1
+selection.multipaste=1
+
+user.shortcuts=\
+Ctrl+K|2396|\
+Ctrl+E|IDM_SELECTIONADDEACH|
+
+# User defined key commands
+#~ user.shortcuts=\
+#~ Ctrl+Shift+V|IDM_PASTEANDDOWN|\
+#~ Ctrl+PageUp|IDM_PREVFILE|\
+#~ Ctrl+PageDown|IDM_NEXTFILE|\
+#~ alt+n|IDM_NEXTFILE|\
+#~ Ctrl+L|IDM_FINDNEXT|\
+#~ alt+w|IDM_SAVE|\
+#~ alt+x|IDM_CLOSE|\
+#~ Ctrl+K|2396|\
+#~ alt+F3|IDM_TOGGLEOUTPUT|
+
+#~ ext.lua.startup.script=$(SciteUserHome)/test.lua
+ext.lua.startup.script=C:/Temp/test.lua
+command.name.12.*=Make Selection Uppercase
+command.subsystem.12.*=3
+command.12.*=make_uppercase
+command.mode.12.*=savebefore:no
+command.shortcut.12.*=Ctrl+M1
+
+ext.lua.startup.script=C:/Temp/test.lua
+command.name.13.*=Make Selection Uppercase
+command.subsystem.13.*=3
+command.13.*=print_marked_lines
+command.mode.13.*=savebefore:no
+command.shortcut.13.*=Ctrl+Y
+
