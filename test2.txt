@@ -21,8 +21,6 @@ Ctrl+D|IDM_CLEAR|\
 Ctrl+E|2314|\
 Ctrl+A|2312|\
 Ctrl+Shift+A|2013|
-#Ctrl+E|IDM_SELECTIONADDEACH|
-#delete bac,k2326
 
 tabbar.visible=1
 
