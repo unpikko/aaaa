@@ -1,0 +1,33 @@
+tabsize=2
+indent.size=2
+tab.indents=2
+
+line.margin.visible=1
+line.margin.width=1+
+margin.width=4
+
+virtual.space=1
+
+selection.multiple=1
+selection.additional.typing=1
+selection.multipaste=1
+
+user.shortcuts=\
+#Ctrl+K|2396|\
+Ctrl+K|2337|\
+Ctrl+U|IDM_PASTE|\
+Ctrl+W|2335|\
+Ctrl+D|IDM_CLEAR|\
+Ctrl+E|2314|\
+Ctrl+A|2312|\
+Ctrl+Shift+A|2013|
+#Ctrl+E|IDM_SELECTIONADDEACH|
+#delete bac,k2326
+
+tabbar.visible=1
+
+autocompleteword.automatic=1
+
+
+# 摺疊符號,0爲三角形，1爲展開-收縮+, 2爲圓形，3方形。一般選2
+fold.symbols=2
